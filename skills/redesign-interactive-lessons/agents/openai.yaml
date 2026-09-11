@@ -1,0 +1,14 @@
+interface:
+  display_name: 활동지 분석과 수업활동·지도안 설계
+  short_description: 활동지를 분석해 학습 목표를 살린 수업활동과 지도안으로 개선
+  default_prompt: $redesign-interactive-lessons 스킬로 첨부 활동지를 분석하고 수업활동과 지도안으로 개선해줘.
+    원자료 연결, 구체적인 활동명, 시간과 진행 방법을 보여줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
